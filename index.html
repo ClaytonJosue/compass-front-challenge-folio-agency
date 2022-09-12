@@ -5,12 +5,43 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/styles/reset.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="assets/styles/style.css">
 	<title>Folio Agency</title>
 </head>
 
 <body>
+	<header class="header-container">
+		<img src="assets/img/logo.svg" alt="Folio's logo">
+		<button class="menu-icon" onclick="menuToggle()"><img src="assets/img/menu-hamburger.svg"
+				alt="menu hamburger icon"></button>
+		<div class="menu-open">
+			<header class="header-container dark-mode">
+				<img src="assets/img/logo-light-mode.svg" alt="Folio's logo">
+				<button class="close-menu" onclick="menuToggle()"><img src="assets/img/close.svg"
+						alt="Close icon"></button>
+			</header>
+			<ul class="menu-list">
+				<li class="list__item"><a href="#" class="list__link">Work</a></li>
+				<li class="list__item"><a href="#" class="list__link">About</a></li>
+				<li class="list__item"><a href="#" class="list__link">Services</a></li>
+				<li class="list__item"><a href="#" class="list__link">Jobs</a></li>
+			</ul>
+		</div>
+	</header>
 
+	<main class="main">
+		<h2 class="main__title">Stand Out
+			from The Crowd.</h2>
+		<p class="main__text">Agency is a full-service agency, busy designing and building beautiful digital products,
+			brands, and experiences.</p>
+		<a href="#" class="main__link">Recent Work</a>
+		<img src="assets/img/computer.svg" class="computer-image">
+	</main>
+	<script src="script.js"></script>
 </body>
 
 </html>
