@@ -1,0 +1,78 @@
+:root {
+	--white: #FFFFFF;
+	--main-font: "Montserrat", sans-serif;
+	--text-light-mode: #606060;
+	--text-dark-mode: #8B8B8B;
+	--color-primary: #5468E7;
+	--color-dark: #232340;
+	--mobile-menu-color: #595976;
+	--deactive: #ADADAD;
+	--strock-1: #D8D8D8;
+	--black: #000000;
+	--shade-4: #EDEDED;
+}
+
+body {
+	font-family: var(--main-font);
+	font-weight: 400;
+	font-size: 16px;
+	background-color: var(--shade-4);
+}
+
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	padding: 2em;
+	margin-bottom: 1em;
+	background: var(--shade-4);
+}
+
+.menu-icon {
+	background-color: transparent;
+	border: none;
+}
+
+.about-page {
+	padding: 1em;
+}
+
+.page-information {
+	display: flex;
+}
+
+.number__page {
+	color: var(--color-primary);
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0 1em;
+}
+
+.name__page {
+	color: var(--color-primary);
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.main__title {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 48px;
+	width: 75vw;
+	margin: 1em 0;
+}
+
+.page-tools {
+	display: flex;
+}
+
+.prev__page,
+.next__page {
+	margin: 0 .8em 0 1em;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	background: var(--color-primary);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
