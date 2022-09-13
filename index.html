@@ -1,47 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="assets/styles/reset.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="assets/styles/style.css">
-	<title>Folio Agency</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/styles/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <title>Folio Agency</title>
 </head>
 
 <body>
-	<header class="header-container">
-		<img src="assets/img/logo.svg" alt="Folio's logo">
-		<button class="menu-icon" onclick="menuToggle()"><img src="assets/img/menu-hamburger.svg"
-				alt="menu hamburger icon"></button>
-		<div class="menu-open">
-			<header class="header-container dark-mode">
-				<img src="assets/img/logo-light-mode.svg" alt="Folio's logo">
-				<button class="close-menu" onclick="menuToggle()"><img src="assets/img/close.svg"
-						alt="Close icon"></button>
-			</header>
-			<ul class="menu-list">
-				<li class="list__item"><a href="#" class="list__link">Work</a></li>
-				<li class="list__item"><a href="#" class="list__link">About</a></li>
-				<li class="list__item"><a href="#" class="list__link">Services</a></li>
-				<li class="list__item"><a href="#" class="list__link">Jobs</a></li>
-			</ul>
-		</div>
-	</header>
+  <header class="header-container">
+    <img src="assets/img/logo.svg" alt="Folio's logo">
+    <button class="menu-icon" onclick="menuToggle()"><img src="assets/img/menu-hamburger.svg"
+        alt="menu hamburger icon"></button>
+    <div class="menu-open">
+      <header class="header-container dark-mode">
+        <img src="assets/img/logo-light-mode.svg" alt="Folio's logo">
+        <button class="close-menu" onclick="menuToggle()"><img src="assets/img/close.svg" alt="Close icon"></button>
+      </header>
+      <ul class="menu-list">
+        <li class="list__item"><a href="#" class="list__link">Work</a></li>
+        <li class="list__item"><a href="#" class="list__link">About</a></li>
+        <li class="list__item"><a href="#" class="list__link">Services</a></li>
+        <li class="list__item"><a href="#" class="list__link">Jobs</a></li>
+      </ul>
+      <div class="footer-icon footer-dark">
+        <div class="facebook-icon icon icon-dark facebook-dark">
+          <img src="assets/img/facebook-icon.svg" alt="facebook logo">
+        </div>
+        <div class="youtube-icon icon icon-dark">
+          <img src="assets/img/youtube-icon.svg" alt="youtube logo">
+        </div>
+        <div class="instagram-icon icon icon-dark">
+          <img src="assets/img/instagram-icon.svg" alt="instagram logo">
+        </div>
+      </div>
+    </div>
+  </header>
 
-	<main class="main">
-		<h2 class="main__title">Stand Out
-			from The Crowd.</h2>
-		<p class="main__text">Agency is a full-service agency, busy designing and building beautiful digital products,
-			brands, and experiences.</p>
-		<a href="#" class="main__link">Recent Work</a>
-		<img src="assets/img/computer.svg" class="computer-image">
-	</main>
-	<script src="script.js"></script>
+  <main class="main">
+    <h2 class="main__title">Stand Out
+      from The Crowd.</h2>
+    <p class="main__text">Agency is a full-service agency, busy designing and building beautiful digital products,
+      brands, and experiences.</p>
+    <a href="#" class="main__link">Recent Work</a>
+    <img src="assets/img/computer.svg" class="computer-image">
+  </main>
+
+  <footer class="footer-container">
+    <div class="footer-contact">
+      <div class="contact__image">
+        <img src="assets/img/bubble-icon.svg" alt="bubble icon" class="bubble-image">
+      </div>
+      <div class="contact__description">
+        <h4 class="contact__message">Say hello</h4>
+        <p class="contact__text">A design team building a curated marketplace for UI designers.</p>
+      </div>
+      <hr>
+      <h2 class="contact__title">Let’s talk about your next project</h2>
+      <a href="#" class="contact__link">Contact Us</a>
+    </div>
+
+    <div class="footer-content">
+      <img src="/assets/img/logo.svg" alt="Footer logo" class="footer__logo">
+      <div>
+        <p class="footer__text">Agency is a full-service agency, busy designing and building.</p>
+      </div>
+      <select name="page" class="page">
+        <option value="home">Home</option>
+      </select>
+      <div class="footer-icon">
+        <div class="facebook-icon icon">
+          <img src="assets/img/facebook-icon.svg" alt="facebook logo">
+        </div>
+        <div class="youtube-icon icon">
+          <img src="assets/img/youtube-icon.svg" alt="youtube logo">
+        </div>
+        <div class="instagram-icon icon">
+          <img src="assets/img/instagram-icon.svg" alt="instagram logo">
+        </div>
+      </div>
+      <p class="footer__copyright">© 2020, UI8 LLC.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>
