@@ -1,0 +1,59 @@
+:root {
+	--white: #FFFFFF;
+	--main-font: "Montserrat", sans-serif;
+	--text-light-mode: #606060;
+	--text-dark-mode: #8B8B8B;
+	--color-primary: #5468E7;
+	--color-dark: #232340;
+	--mobile-menu-color: #595976;
+	--deactive: #ADADAD;
+	--strock-1: #D8D8D8;
+	--black: #000000;
+	--shade-4: #EDEDED;
+	--shade-1: #D1ECFD;
+	--shade-7: #908CFF;
+	--accent-2: #FFBA79;
+	--shade-5: #FFADD0;
+	--accent-1: #FFC7DF;
+
+}
+
+body {
+	font-family: var(--main-font);
+	font-weight: 400;
+	font-size: 16px;
+	background: var(--white);
+}
+
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	padding: 2em;
+	margin-bottom: 1em;
+}
+
+.menu-icon {
+	background-color: transparent;
+	border: none;
+}
+
+.about-page {
+	padding: 1em;
+}
+
+.page-information {
+	display: flex;
+}
+
+.number__page {
+	color: var(--color-primary);
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0 1em;
+}
+
+.name__page {
+	color: var(--color-primary);
+	font-size: 14px;
+	font-weight: 600;
+}
