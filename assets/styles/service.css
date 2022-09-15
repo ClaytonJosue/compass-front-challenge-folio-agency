@@ -96,6 +96,15 @@ body {
 	margin: 2em 0;
 	box-shadow: var(--white) 0 2px 2px;
 	text-decoration: none;
+	transition: .5s;
+}
+
+.card:hover {
+	background-color: var(--color-primary);
+}
+
+.card:hover>.card__text {
+	color: var(--white);
 }
 
 .image-circle {
