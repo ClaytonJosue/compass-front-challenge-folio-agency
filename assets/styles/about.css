@@ -353,6 +353,12 @@ body {
 		background-color: var(--color-dark);
 		color: var(--white);
 		padding: 0 2em;
+		align-items: center;
+		justify-content: center;
+		height: 10vh;
+		border-radius: 8px;
+		text-decoration: none;
+		font-weight: 600;
 	}
 
 	.menu-hamburguer {
