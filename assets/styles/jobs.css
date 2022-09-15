@@ -1,0 +1,111 @@
+:root {
+	--white: #FFFFFF;
+	--main-font: "Montserrat", sans-serif;
+	--text-light-mode: #606060;
+	--text-dark-mode: #8B8B8B;
+	--color-primary: #5468E7;
+	--color-dark: #232340;
+	--mobile-menu-color: #595976;
+	--deactive: #ADADAD;
+	--strock-1: #D8D8D8;
+	--black: #000000;
+	--shade-4: #EDEDED;
+	--shade-1: #D1ECFD;
+	--shade-2: #E8BEFF;
+	--shade-7: #908CFF;
+	--shade-5: #FFADD0;
+	--shade-6: #FFCE79;
+	--accent-2: #FFBA79;
+	--accent-1: #FFC7DF;
+	--background-color: #EDE5F081;
+
+}
+
+body {
+	font-family: var(--main-font);
+	font-weight: 400;
+	font-size: 16px;
+	background: var(--background-color) url('/assets/img/line-jobs.svg') no-repeat;
+	background-position: right 1px;
+}
+
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	padding: 2em;
+	margin-bottom: 1em;
+}
+
+.menu-icon {
+	background-color: transparent;
+	border: none;
+}
+
+.container-page {
+	padding: 1em;
+}
+
+.page-information {
+	display: flex;
+	margin-bottom: 2em;
+}
+
+.number__page {
+	color: var(--color-primary);
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0 1em;
+}
+
+.name__page {
+	color: var(--color-primary);
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.container__title {
+	font-size: 40px;
+	font-weight: 700;
+	color: var(--color-dark);
+	max-width: 300px;
+}
+
+.container__text {
+	color: var(--text-light-mode);
+	margin: 1em 0;
+	max-width: 320px;
+	line-height: 28px;
+}
+
+.card {
+	width: 288px;
+	background-color: var(--white);
+	border-radius: 28px;
+	margin: 2em auto;
+	padding: 3em .5em;
+}
+
+.card-content {
+	margin-left: 2em;
+}
+
+.card__title {
+	color: var(--color-dark);
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.card__text {
+	color: var(--text-light-mode);
+	margin: 1em 0;
+}
+
+.card__title-one::after {
+	content: url('/assets/img/notification\(2\).svg');
+	margin-left: 10px;
+}
+
+.card__title-last::after {
+	content: url('/assets/img/notification\(6\).svg');
+	margin-left: 10px;
+}
