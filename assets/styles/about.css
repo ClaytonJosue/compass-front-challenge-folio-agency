@@ -272,6 +272,34 @@ body {
 	display: none;
 }
 
+.logo-symbol {
+	display: none;
+}
+
+.sub-information {
+	display: none;
+}
+
+.footer__text-tablet {
+	display: none;
+}
+
+.navbar-footer {
+	display: none;
+}
+
+.footer__information {
+	display: block;
+}
+
+.facebook-icon-tablet {
+	display: none;
+}
+
+.icon__link {
+	display: none;
+}
+
 @media screen and (min-width: 768px) {
 	.header-container {
 		justify-content: space-around;
@@ -320,5 +348,146 @@ body {
 
 	.menu-hamburguer {
 		display: none;
+	}
+
+	.footer-contact {
+		height: 100vh;
+	}
+
+	.bubble-image {
+		display: none;
+	}
+
+	.contact__image {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.logo-symbol {
+		display: inline-block;
+	}
+
+	.contact__message {
+		margin: 1em 0;
+		font-size: 16px;
+	}
+
+	.contact__text {
+		width: 50%;
+		margin: 2em auto 5em;
+	}
+
+	.contact__link {
+		display: none;
+	}
+
+	.contact__information {
+		display: flex;
+		align-items: center;
+	}
+
+	.information {
+		border-right: 1px solid;
+		height: 64vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 50%;
+	}
+
+	.contact__title {
+		width: 70%;
+		font-size: 48px;
+	}
+
+	.sub-information {
+		display: flex;
+		margin: 0 auto;
+		height: 26vh;
+	}
+
+	.second-bubble {
+		position: absolute;
+		margin: 0 2em;
+	}
+
+	.contact__subtext {
+		align-self: center;
+		font-size: 24px;
+		font-weight: 700;
+		margin-top: 3em;
+		width: 79%;
+	}
+
+	.next__page {
+		align-self: flex-end;
+		margin-bottom: 1em;
+		width: 48px;
+		height: 48px;
+		border-radius: 50%;
+		border: 1px solid var(--white);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.footer__text {
+		display: none;
+	}
+
+	.footer__text-tablet {
+		display: block;
+		color: var(--deactive);
+		width: 50%;
+		margin: 3em auto;
+		font-weight: 600;
+		font-size: 14px;
+	}
+
+	.page {
+		display: none;
+	}
+
+	.navbar-footer {
+		display: flex;
+		justify-content: center;
+		border-bottom: 1px solid var(--strock-1);
+		padding-bottom: 5em;
+	}
+
+	.footer__information {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		margin: 0 1em;
+	}
+
+	.icon {
+		border: none;
+		display: flex;
+		align-items: center;
+		align-self: center;
+		width: auto;
+		height: auto;
+	}
+
+	.icon__link {
+		display: flex;
+		align-items: center;
+		margin-right: 1em;
+		text-decoration: none;
+		color: var(--color-primary);
+		font-size: 12px;
+		font-weight: 600;
+	}
+
+	.facebook-icon {
+		display: none;
+	}
+
+	.facebook-icon-tablet {
+		display: block;
+		background: transparent;
 	}
 }
