@@ -25,7 +25,10 @@ body {
 	font-weight: 400;
 	font-size: 16px;
 	background: var(--white);
+	color: var(--white);
+
 }
+
 
 .header-container {
 	display: flex;
@@ -41,6 +44,11 @@ body {
 
 .container-page {
 	padding: 1em;
+	width: 80%;
+	height: 140vh;
+	margin: 0 auto;
+	border-radius: 28px;
+	background: var(--color-primary);
 }
 
 .page-information {
@@ -59,4 +67,27 @@ body {
 	color: var(--color-primary);
 	font-size: 14px;
 	font-weight: 600;
+}
+
+.container__title {
+	font-weight: 700;
+	font-size: 48px;
+}
+
+.container__button {
+	padding: 1em;
+	color: var(--color-primary);
+	background-color: var(--white);
+	text-decoration: none;
+	display: block;
+	width: 140px;
+	text-align: center;
+	margin: 3em 0 3em 1em;
+	font-weight: 600;
+}
+
+.container__image {
+	width: 90vw;
+	position: relative;
+	top: -24vh;
 }
