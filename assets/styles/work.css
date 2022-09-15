@@ -246,3 +246,62 @@ body {
 	height: 10vh;
 	margin-top: 2em;
 }
+
+.navbar {
+	display: none;
+}
+
+.contact__link-navbar {
+	display: none;
+}
+
+@media screen and (min-width: 768px) {
+	.header-container {
+		justify-content: space-around;
+	}
+
+	.navbar {
+		display: flex;
+		align-items: center;
+	}
+
+	.navbar__list {
+		display: flex;
+		align-items: center;
+	}
+
+	.navbar__item {
+		margin: 0 2em;
+	}
+
+	.navbar__link {
+		color: var(--text-dark-mode);
+		font-weight: 600;
+		text-decoration: none;
+	}
+
+	.navbar__link:hover {
+		color: var(--color-primary);
+	}
+
+	.navbar__link-jobs {
+		display: flex;
+		align-items: center;
+	}
+
+	.navbar__link-jobs::after {
+		content: url('/assets/img/notification\(2\).svg');
+		height: 10vh;
+	}
+
+	.contact__link-navbar {
+		display: flex;
+		background-color: var(--color-dark);
+		color: var(--white);
+		padding: 0 2em;
+	}
+
+	.menu-hamburguer {
+		display: none;
+	}
+}
