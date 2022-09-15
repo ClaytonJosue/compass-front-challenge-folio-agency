@@ -85,8 +85,24 @@ body {
 	padding: 3em .5em;
 }
 
+.card:hover {
+	background: var(--color-dark) url('/assets/img/image-hover.svg') no-repeat;
+	background-position: right;
+	transform: scale(1.2);
+}
+
+.card:hover>.card-content>.card__title {
+	font-size: 22px;
+	color: var(--white);
+}
+
+.card:hover>.card-content>.card__button {
+	background: url('/assets/img/arrow-next.svg') no-repeat;
+}
+
+
 .card-content {
-	margin-left: 2em;
+	margin-left: 1em;
 }
 
 .card__title {
