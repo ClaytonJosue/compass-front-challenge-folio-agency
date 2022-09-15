@@ -32,6 +32,11 @@ body {
 	margin-bottom: 1em;
 }
 
+.logo__link {
+	display: flex;
+	align-items: center;
+}
+
 .menu-icon {
 	background-color: transparent;
 	border: none;

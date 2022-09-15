@@ -27,6 +27,11 @@ body {
 	background: var(--white);
 }
 
+.logo__link {
+	display: flex;
+	align-items: center;
+}
+
 .menu-icon {
 	background-color: transparent;
 	border: none;
