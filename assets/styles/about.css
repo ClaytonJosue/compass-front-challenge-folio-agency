@@ -300,7 +300,12 @@ body {
 	display: none;
 }
 
-@media screen and (min-width: 768px) {
+.prev__page-tablet,
+.next__page-tablet {
+	display: none;
+}
+
+@media screen and (min-width: 1024px) {
 	.header-container {
 		justify-content: space-around;
 	}
@@ -350,6 +355,86 @@ body {
 		display: none;
 	}
 
+	.about-page {
+		padding: 2em;
+	}
+
+	.bg-line {
+		background: url('/assets/img/line-tablet-about.svg') no-repeat;
+		background-position: 60px -60px;
+	}
+
+	.main__information {
+		display: flex;
+	}
+
+	.prev__page,
+	.next__page {
+		display: none;
+	}
+
+	.prev__page-tablet,
+	.next__page-tablet {
+		margin: 0 .8em 0 2em;
+		width: 48px;
+		height: 48px;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.prev__page-tablet:hover,
+	.next__page-tablet:hover {
+		background: var(--color-primary);
+	}
+
+	.about__year {
+		display: none;
+	}
+
+	.about-image {
+		display: none;
+	}
+
+	.about__information {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.about__image {
+		width: 75%;
+		height: 70vh;
+	}
+
+	.about__item {
+		margin: 0 0 4.5em;
+	}
+
+	.about__link {
+		text-decoration: none;
+		color: var(--deactive);
+		font-size: 12px;
+		font-weight: 600;
+	}
+
+	.about__link:hover {
+		color: var(--white);
+	}
+
+	.about-us {
+		display: flex;
+		align-items: center;
+	}
+
+	.about-us__description {
+		width: 50%;
+	}
+
+	.about-us__text {
+		margin: 2em 0 3em;
+	}
+
 	.footer-contact {
 		height: 100vh;
 	}
@@ -378,7 +463,7 @@ body {
 		margin: 2em auto 5em;
 	}
 
-	.contact__link {
+	.contact__link-footer {
 		display: none;
 	}
 
@@ -420,7 +505,7 @@ body {
 		width: 79%;
 	}
 
-	.next__page {
+	.next__page-footer {
 		align-self: flex-end;
 		margin-bottom: 1em;
 		width: 48px;
