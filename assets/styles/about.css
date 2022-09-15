@@ -179,7 +179,7 @@ body {
 	margin: 1em 0;
 }
 
-.contact__link {
+.contact__link-footer {
 	background-color: var(--white);
 	display: flex;
 	align-items: center;
