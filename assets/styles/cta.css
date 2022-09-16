@@ -300,8 +300,51 @@ body {
 
 	/*Header end*/
 
+	.container-page {
+		height: 88vh;
+		box-shadow: -47px 25px var(--shade-1);
+		max-height: 500px;
+	}
+
 	.container__image {
 		display: none;
+	}
+
+	.page__content {
+		display: flex;
+	}
+
+	.page-information {
+		display: flex;
+		position: absolute;
+		right: 19em;
+		top: 15em;
+	}
+
+	.number__page {
+		color: var(--white);
+		margin-right: 3em;
+	}
+
+	.name__page {
+		color: var(--white);
+	}
+
+	.logo__image {
+		margin-right: 23em;
+	}
+
+	.page__description {
+		position: absolute;
+		width: 30%;
+		right: 10em;
+		top: 18em;
+	}
+
+	.pink-mask__image {
+		position: absolute;
+		right: 0;
+		top: 11em;
 	}
 
 	/* Footer */
