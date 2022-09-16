@@ -294,6 +294,8 @@ body {
 
 
 @media screen and (min-width: 1024px) {
+
+	/*Header*/
 	.header-container {
 		justify-content: space-around;
 	}
@@ -346,6 +348,229 @@ body {
 	}
 
 	.menu-hamburguer {
+		display: none;
+	}
+
+	/*Header end*/
+
+	.main__information {
+		margin-left: 4em;
+	}
+
+	.container__title {
+		font-size: 64px;
+		max-width: 65vw;
+	}
+
+	.container__text {
+		width: 50%;
+		line-height: 28px;
+	}
+
+	.card-container {
+		background: url('/assets/img/female-running-bw-image.svg') no-repeat;
+		background-position: 50vw -10vh;
+	}
+
+	.card-one__information {
+		position: absolute;
+		top: 30em;
+		left: 1em;
+	}
+
+	.card-one__title {
+		font-size: 32px;
+		font-weight: 700;
+		color: var(--color-dark);
+		width: 400px;
+		margin: 1em 0;
+	}
+
+	.card-one__text {
+		color: var(--text-light-mode);
+		width: 25%;
+	}
+
+	.card {
+		width: 470px;
+		display: flex;
+		justify-content: center;
+		background-color: var(--shade-1);
+	}
+
+	.card__button {
+		display: none;
+	}
+
+	.card__button-tablet {
+		display: block;
+		width: 18%;
+		text-align: center;
+		background-color: var(--shade-7);
+		padding: 0.6em 1em;
+		margin-left: 1em;
+		border-radius: 14px;
+		color: var(--white);
+		text-decoration: none;
+	}
+
+	.next__page-tablet {
+		position: absolute;
+		top: 35em;
+		right: 16em;
+		width: 48px;
+		height: 48px;
+		background: var(--color-primary);
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.card-one__description {
+		display: none;
+	}
+
+	.card-container__title {
+		display: none;
+	}
+
+	.card-two__description {
+		margin-top: 5em;
+	}
+
+	.card-container__title-tablet {
+		display: flex;
+		justify-content: flex-end;
+		color: var(--color-dark);
+		font-size: 32px;
+		font-weight: 700;
+		margin-right: 3em;
+	}
+
+	.second-card {
+		margin-left: 40em;
+		width: 300px;
+		height: 270px;
+		background-color: var(--shade-2);
+		margin-top: 1em;
+	}
+
+	.second-card__image {
+		position: absolute;
+		right: 12em;
+	}
+
+	.card-text__two {
+		width: 35%;
+		margin-left: 40em;
+		margin-top: 0;
+	}
+
+	.card-button__two {
+		position: absolute;
+		top: 75em;
+		right: 1.5em;
+	}
+
+	.third-card {
+		margin: -10em 2em 2em;
+		width: 328px;
+		background-color: var(--shade-6);
+	}
+
+	.card-three__description {
+		position: absolute;
+		top: 80em;
+		margin-left: 2em;
+	}
+
+	.card-title-tablet__three {
+		font-size: 32px;
+		font-weight: 700;
+		color: var(--color-dark);
+	}
+
+	.card-text__three {
+		width: 35%;
+		margin-left: 2em;
+		margin-top: 0;
+	}
+
+	.card-button__three {
+		position: absolute;
+		top: 102em;
+		left: 23em;
+	}
+
+	.fourth-card {
+		margin-left: 35em;
+		width: 300px;
+		height: 270px;
+		background-color: var(--shade-1);
+		margin-top: -5em;
+	}
+
+	.card-four__description {
+		position: absolute;
+		top: 108em;
+		right: 15em;
+	}
+
+	.card-title-tablet__four {
+		font-size: 32px;
+		font-weight: 700;
+		color: var(--color-dark);
+	}
+
+	.card-text__four {
+		width: 35%;
+		margin-left: 35em;
+		margin-top: 0;
+	}
+
+	.card-button__four {
+		position: absolute;
+		top: 128em;
+		right: 6.5em;
+	}
+
+	.card-five__description {
+		position: absolute;
+		top: 123em;
+		margin-left: 5em;
+	}
+
+	.card-title-tablet__five {
+		font-size: 32px;
+		font-weight: 700;
+		color: var(--color-dark);
+	}
+
+	.fifth-card {
+		margin: -15em 5em 2em;
+		height: 360px;
+		width: 258px;
+		background-color: var(--shade-5);
+	}
+
+	.fifth-card__image {
+		width: 260px;
+	}
+
+	.card-text__five {
+		width: 35%;
+		margin-left: 5em;
+		margin-top: 0;
+	}
+
+	.card-button__five {
+		position: absolute;
+		top: 148em;
+		left: 21.5em;
+	}
+
+	.container__button {
 		display: none;
 	}
 
