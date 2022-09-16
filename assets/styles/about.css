@@ -586,3 +586,142 @@ body {
 		background: transparent;
 	}
 }
+
+@media screen and (min-width: 1440px) {
+
+	/*Header*/
+	.navbar__link {
+		font-size: 18px;
+	}
+
+	.contact__link-navbar {
+		height: 7vh;
+		font-weight: 700;
+		font-size: 18px;
+	}
+
+	/*Header end*/
+	.number__page,
+	.name__page {
+		font-size: 18px
+	}
+
+	.main__title {
+		font-size: 64px;
+	}
+
+	.main__information {
+		justify-content: center;
+	}
+
+	.prev__page-tablet,
+	.next__page-tablet {
+		width: 64px;
+		height: 64px;
+	}
+
+	.about__image {
+		width: 80%;
+		height: 80vh;
+	}
+
+	.about__item {
+		margin-bottom: 6em;
+	}
+
+	.about__link {
+		font-size: 18px;
+	}
+
+	.about-us__description {
+		margin-left: 4em;
+	}
+
+	.about-us__title {
+		font-size: 32px;
+	}
+
+	.about-us__text {
+		font-size: 18px;
+		width: 75%;
+		line-height: 32px;
+	}
+
+	.about-us__link {
+		display: flex;
+		width: 165px;
+		height: 45px;
+		font-weight: 700;
+		font-size: 18px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.number-circle {
+		box-shadow: none;
+	}
+
+	.number__title {
+		font-size: 200px;
+	}
+
+	.number__text {
+		font-size: 24px;
+	}
+
+	/*Footer*/
+	.logo-symbol {
+		margin: 1em 0 3em;
+	}
+
+	.contact__message {
+		font-size: 18px;
+	}
+
+	.contact__text {
+		font-size: 32px;
+	}
+
+	.contact__title {
+		font-size: 64px;
+	}
+
+	.second-bubble {
+		width: 103px;
+		height: 103px;
+	}
+
+	.next__page {
+		width: 64px;
+		height: 64px;
+	}
+
+	.contact__subtext {
+		font-size: 32px;
+	}
+
+	.footer__logo {
+		width: 191px;
+		height: 48px;
+	}
+
+	.footer__text-tablet {
+		font-size: 18px;
+	}
+
+	.footer__copyright,
+	.icon__link {
+		font-size: 14px;
+	}
+
+	.facebook-icon-tablet img,
+	.instagram-icon img {
+		width: 16px;
+		height: 16px;
+	}
+
+	.youtube-icon img {
+		width: 16px;
+		height: 12px;
+	}
+}

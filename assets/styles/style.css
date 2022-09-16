@@ -484,6 +484,8 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
+
+	/*Header*/
 	.navbar__link {
 		font-size: 18px;
 	}
@@ -493,6 +495,8 @@ body {
 		font-weight: 700;
 		font-size: 18px;
 	}
+
+	/*Header end*/
 
 	.main__title {
 		font-size: 84px;
