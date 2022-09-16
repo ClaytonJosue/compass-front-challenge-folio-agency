@@ -485,7 +485,7 @@ body {
 	}
 
 	.card {
-		border-radius: 0;
+		border-radius: 32px;
 		height: 65vh;
 		width: 25%;
 	}
@@ -667,5 +667,129 @@ body {
 	.facebook-icon-tablet {
 		display: block;
 		background: transparent;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+
+	/*Header*/
+	.navbar__link {
+		font-size: 18px;
+	}
+
+	.contact__link-navbar {
+		height: 7vh;
+		font-weight: 700;
+		font-size: 18px;
+	}
+
+	/*Header end*/
+
+	.number__page,
+	.name__page {
+		font-size: 18px
+	}
+
+	.main__information {
+		justify-content: center;
+	}
+
+	.main__title {
+		font-size: 64px;
+		width: 60%;
+	}
+
+	.prev__page-tablet,
+	.next__page-tablet {
+		width: 64px;
+		height: 64px;
+	}
+
+	.card {
+		width: 293px;
+		height: 490px;
+		border-radius: 48px;
+	}
+
+	.card:hover {
+		transform: scale(1.1);
+	}
+
+	.name__description,
+	.number__description {
+		font-size: 18px
+	}
+
+	.page__content {
+		margin: 5em 11em;
+	}
+
+	.description__title {
+		font-size: 32px;
+		color: var(--black);
+	}
+
+	.project__number {
+		font-size: 200px;
+	}
+
+	.project__text {
+		font-size: 24px;
+	}
+
+	/*Footer*/
+	.logo-symbol {
+		margin: 1em 0 3em;
+	}
+
+	.contact__message {
+		font-size: 18px;
+	}
+
+	.contact__text {
+		font-size: 32px;
+	}
+
+	.contact__title {
+		font-size: 64px;
+	}
+
+	.second-bubble {
+		width: 103px;
+		height: 103px;
+	}
+
+	.next__page {
+		width: 64px;
+		height: 64px;
+	}
+
+	.contact__subtext {
+		font-size: 32px;
+	}
+
+	.footer__logo {
+		width: 191px;
+		height: 48px;
+	}
+
+	.footer__text-tablet {
+		font-size: 18px;
+	}
+
+	.footer__copyright,
+	.icon__link {
+		font-size: 14px;
+	}
+
+	.facebook-icon-tablet img,
+	.instagram-icon img {
+		width: 16px;
+		height: 16px;
+	}
+
+	.youtube-icon img {
+		width: 16px;
+		height: 12px;
 	}
 }
