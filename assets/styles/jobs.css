@@ -18,6 +18,7 @@
 	--accent-2: #FFBA79;
 	--accent-1: #FFC7DF;
 	--background-color: #EDE5F081;
+	--color-secundary: #C897E4;
 
 }
 
@@ -25,8 +26,8 @@ body {
 	font-family: var(--main-font);
 	font-weight: 400;
 	font-size: 16px;
-	background: var(--background-color) url('/assets/img/line-jobs.svg') no-repeat;
-	background-position: right 1px;
+	background: var(--background-color) url('/assets/img/line-jobs-tablet.svg') no-repeat;
+	background-position: 48vw 0;
 }
 
 .header-container {
@@ -274,6 +275,10 @@ body {
 
 
 @media screen and (min-width: 1024px) {
+	body {
+		background-position: 17vw 14vh;
+	}
+
 	.header-container {
 		justify-content: space-around;
 	}
@@ -330,6 +335,52 @@ body {
 	}
 
 	/*Header end*/
+
+	.main__information {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.container__title {
+		font-size: 76px;
+		margin: .5em 0 1em;
+	}
+
+	.container__text {
+		line-height: 28px;
+	}
+
+	.card-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.card {
+		width: 399px;
+	}
+
+	.main__jobs {
+		display: flex;
+		align-items: center;
+	}
+
+	.jobs__link {
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background-color: var(--color-secundary);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-right: 2em;
+	}
+
+	.jobs__text {
+		color: var(--text-dark-mode);
+		font-weight: 600;
+		width: 30%;
+		line-height: 22px;
+	}
 
 	/*Footer*/
 	.footer-container {
