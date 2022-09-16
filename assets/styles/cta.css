@@ -310,6 +310,11 @@ body {
 		display: none;
 	}
 
+	.container__button {
+		margin-left: 0;
+		border-radius: 8px;
+	}
+
 	.page__content {
 		display: flex;
 	}
