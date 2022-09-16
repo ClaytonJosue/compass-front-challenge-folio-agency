@@ -377,6 +377,11 @@ body {
 	display: none;
 }
 
+.image-icon,
+.image-icon__page {
+	display: none;
+}
+
 @media screen and (min-width: 1024px) {
 	.header-container {
 		justify-content: space-around;
@@ -435,6 +440,7 @@ body {
 
 	/*Navbar end*/
 	.image-icon {
+		display: block;
 		margin: 0 3em 0 5em;
 	}
 
@@ -494,6 +500,7 @@ body {
 	}
 
 	.image-icon__page {
+		display: block;
 		margin-right: 2em;
 	}
 

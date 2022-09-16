@@ -273,6 +273,14 @@ body {
 	display: none;
 }
 
+.logo-symbol {
+	display: none;
+}
+
+.main__jobs {
+	display: none;
+}
+
 
 @media screen and (min-width: 1024px) {
 	body {

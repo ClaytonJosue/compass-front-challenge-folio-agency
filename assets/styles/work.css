@@ -288,6 +288,22 @@ body {
 	display: none;
 }
 
+.card-one__information {
+	display: none;
+}
+
+.card-description {
+	display: none;
+}
+
+.page__link {
+	display: none;
+}
+
+.logo-image {
+	display: none;
+}
+
 
 @media screen and (min-width: 1024px) {
 
@@ -369,9 +385,14 @@ body {
 	}
 
 	.card-one__information {
+		display: block;
 		position: absolute;
 		top: 30em;
 		left: 1em;
+	}
+
+	.card-description {
+		display: block;
 	}
 
 	.card-one__title {
@@ -385,6 +406,10 @@ body {
 	.card-one__text {
 		color: var(--text-light-mode);
 		width: 25%;
+	}
+
+	.page__link {
+		display: block;
 	}
 
 	.card {
@@ -568,6 +593,10 @@ body {
 
 	.container__button {
 		display: none;
+	}
+
+	.logo-image {
+		display: block;
 	}
 
 	/*Footer*/

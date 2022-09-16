@@ -98,7 +98,7 @@ body {
 }
 
 .footer-container {
-	margin-top: 10em;
+	margin-top: 20em;
 }
 
 .footer-contact {
@@ -242,6 +242,18 @@ body {
 	display: none;
 }
 
+.pink-mask__image {
+	display: none;
+}
+
+.phone-tablet__image {
+	display: none;
+}
+
+.logo__image {
+	display: none;
+}
+
 @media screen and (min-width: 768px) {
 	.header-container {
 		justify-content: space-around;
@@ -336,6 +348,7 @@ body {
 	}
 
 	.logo__image {
+		display: block;
 		margin-right: 23em;
 	}
 
@@ -347,9 +360,14 @@ body {
 	}
 
 	.pink-mask__image {
+		display: block;
 		position: absolute;
 		right: 0;
 		top: 11em;
+	}
+
+	.phone-tablet__image {
+		display: block;
 	}
 
 	/* Footer */
